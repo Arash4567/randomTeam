@@ -929,7 +929,7 @@ $(document).ready(() => {
           $("<tr>").append(
             $("<td>").text(index + 1),
             $("<td>").text(player.player),
-            $("<td>").html(`<a href="${player.hero.info}" class="hover:text-black">${player.hero.localized_name}</a>`),
+            $("<td>").html(`<a href="${player.hero.info}" class="hover:text-red-300">${player.hero.localized_name}</a>`),
           )
         );
       });
@@ -950,7 +950,7 @@ $(document).ready(() => {
           $("<tr>").append(
             $("<td>").text(index + 1),
             $("<td>").text(player.player),
-            $("<td>").html(`<a href="${player.hero.info}" class="hover:text-black">${player.hero.localized_name}</a>`),
+            $("<td>").html(`<a href="${player.hero.info}" class="hover:text-red-300">${player.hero.localized_name}</a>`),
           )
         );
       });
